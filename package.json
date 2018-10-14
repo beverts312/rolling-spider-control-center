@@ -1,0 +1,16 @@
+{
+  "name": "rolling-spider-control-center",
+  "version": "0.0.0-dev",
+  "description": "",
+  "scripts": {
+    "keyboard": "node src/keyboard.js"
+  },
+  "author": "Bailey Everts",
+  "license": "ISC",
+  "dependencies": {
+    "bluetooth-hci-socket": "^0.5.1",
+    "noble": "^1.9.1",
+    "rolling-spider": "^1.7.0",
+    "temporal": "^0.7.1"
+  }
+}

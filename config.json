@@ -1,0 +1,63 @@
+{
+    "inverted": false,
+    "consoleLog": false,
+    "controller": {
+        "id": 0,
+        "deadzone": 3500,
+        "sensetivity": 1000 
+    },
+    "controls":{
+        "emergency": {
+            "key": "m",
+            "xbox": "y"
+        },
+        "takeOff": {
+            "key": "t",
+            "xbox": "b"
+        },
+        "land": {
+            "key": "q",
+            "xbox": "a"
+        },
+        "forward": {
+            "key": "w"
+        },
+        "backward": {
+            "key": "s"
+        },
+        "tiltLeft": {
+            "key": "a"
+        },
+        "tiltRight": {
+            "key": "d"
+        },
+        "up": {
+            "key": "up"
+        },
+        "down": {
+            "key": "down"
+        },
+        "turnRight": {
+            "key": "right"
+        },
+        "turnLeft": {
+            "key": "left"
+        },
+        "frontFlip": {
+            "key": "f",
+            "xbox": "lt"
+        },
+        "backFlip": {
+            "key": "k",
+            "xbox": "rt"
+        },
+        "leftFlip": {
+            "key": "j",
+            "xbox": "lb"
+        },
+        "rightFlip": {
+            "key": "l",
+            "xbox": "rb"
+        }
+    }
+}
