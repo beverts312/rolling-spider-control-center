@@ -30,6 +30,10 @@ export class Drone {
         });
     });
 
+    public printStatus(): void {
+        console.log(`Battery ${this.spider.status.battery}%`);
+    }
+
     public emergency(): void {
         console.log('emergency');
         this.spider.emergency();
@@ -107,5 +111,10 @@ export class Drone {
     public backFlip(steps: number): void {
         console.log(`back flip ${steps}`);
         this.spider.backFlip({ steps: steps });
+    }
+
+    public disconnect(): void {
+        this.spider.disconnect();
+        console.log('disconnecting');
     }
 }

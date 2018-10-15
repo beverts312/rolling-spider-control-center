@@ -5,7 +5,7 @@ const STEPS = 2;
 
 export class DroneController {
 
-  constructor(private drone: Drone) { }
+  constructor(public readonly drone: Drone) { }
 
   public isActive(): boolean {
     return this.active;
@@ -15,7 +15,6 @@ export class DroneController {
 
   public matchControl(value: string, type: 'xbox' | 'key'): void {
     if (!this.active) {
-      console.log('busy...blocking control');
       return;
     }
     switch (value) {

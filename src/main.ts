@@ -13,6 +13,10 @@ async function main() {
 
     const xboxController = new XboxController(droneController);
     xboxController.initialize();
+
+    setInterval(() => {
+        drone.printStatus();
+    }, 10000)
 }
 
 main().catch(err => {
