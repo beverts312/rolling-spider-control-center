@@ -18,20 +18,20 @@ To start (must build before starting) - `npm run start`.
 
 Controls can be overriden by modifying [config.json](./config.json).
 
-| Action | Key |
-|--------|-----|
-|emergency landing|m|
-|take off|t|
-|land|q|
-|forward|w|
-|backward|s|
-|tilt left|a|
-|tilt right|d|
-|up|up arrow|
-|down|down arrow|
-|turn right|right arrow|
-|turn left|left arrow|
-|front flip|f|
-|back flip|k|
-|left flip|j|
-|right flip|l|
+| Action | Key |Xbox Contoller|
+|--------|-----|--------------|
+|emergency landing|m|Y|
+|take off|t|B|
+|land|q|A|
+|forward|w||
+|backward|s||
+|tilt left|a||
+|tilt right|d||
+|up|up arrow||
+|down|down arrow||
+|turn right|right arrow||
+|turn left|left arrow||
+|front flip|f||
+|back flip|k||
+|left flip|j||
+|right flip|l||

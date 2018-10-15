@@ -1,6 +1,7 @@
 import { Drone } from './drone';
 import { DroneController } from './controller';
 import { KeyboardController } from './keyboard';
+import { XboxController } from './xbox';
 
 async function main() {
     const drone = new Drone();
@@ -9,6 +10,9 @@ async function main() {
     
     const keyboardController = new KeyboardController(droneController);
     keyboardController.initialize();
+
+    const xboxController = new XboxController(droneController);
+    xboxController.initialize();
 }
 
 main().catch(err => {
