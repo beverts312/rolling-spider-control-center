@@ -3,7 +3,9 @@
   "version": "0.0.0-dev",
   "description": "",
   "scripts": {
-    "keyboard": "node src/keyboard.js"
+    "build": "tsc",
+    "keyboard": "node src/keyboard/standalone.js",
+    "start": "node src/main.js"
   },
   "author": "Bailey Everts",
   "license": "ISC",
@@ -12,5 +14,10 @@
     "noble": "^1.9.1",
     "rolling-spider": "^1.7.0",
     "temporal": "^0.7.1"
+  },
+  "devDependencies": {
+    "@swellaby/tslint-config": "^1.1.5",
+    "@types/node": "^10.11.7",
+    "typescript": "^3.1.3"
   }
 }
