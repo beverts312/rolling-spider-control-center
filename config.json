@@ -20,36 +20,44 @@
             "xbox": "a"
         },
         "forward": {
-            "key": "w"
+            "key": "w",
+            "xbox": "leftY.up"
         },
         "backward": {
-            "key": "s"
+            "key": "s",
+            "xbox": "leftY.down"
         },
         "tiltLeft": {
-            "key": "a"
+            "key": "a",
+            "xbox": "leftX.left"
         },
         "tiltRight": {
-            "key": "d"
+            "key": "d",
+            "xbox": "leftX.right"
         },
         "up": {
-            "key": "up"
+            "key": "up",
+            "xbox": "rightY.up"
         },
         "down": {
-            "key": "down"
+            "key": "down",
+            "xbox": "rightY.down"
         },
         "turnRight": {
-            "key": "right"
+            "key": "right",
+            "xbox": "rightX.right"
         },
         "turnLeft": {
-            "key": "left"
+            "key": "left",
+            "xbox": "rightX.left"
         },
         "frontFlip": {
             "key": "f",
-            "xbox": "lt"
+            "xbox": "lt.in"
         },
         "backFlip": {
             "key": "k",
-            "xbox": "rt"
+            "xbox": "rt.in"
         },
         "leftFlip": {
             "key": "j",

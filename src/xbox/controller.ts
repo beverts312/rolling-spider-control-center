@@ -1,7 +1,7 @@
 import { DroneController } from '../controller';
 import { XboxControllerEvent } from './event';
 import { XboxButtonControl } from './button';
-import { XboxAxisControl } from './axis';
+import { getAxisControlWithDirection } from './axis';
 
 const config = require('../../config.json');
 
@@ -24,7 +24,7 @@ export class XboxController {
 
   private readonly axisHandler = (event: XboxControllerEvent): void => {
     if (!event.init && event.value !== 0) {
-      console.error(`Handler for ${XboxAxisControl[event.number]} is not implimented`);
+      this.controller.matchControl(getAxisControlWithDirection(event), 'xbox');
     }
   }
 }
